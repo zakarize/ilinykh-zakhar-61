@@ -19,7 +19,6 @@ steps:
 # Устанавливаем все необходимые зависимости и запускаем тесты node
 - name: npm install, test and build
 run: |
-npm install
 npm run build
 # Пример однолинейного  простого скрипта shell
 - name: Run a one-line script
